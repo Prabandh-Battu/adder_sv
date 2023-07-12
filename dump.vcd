@@ -1,0 +1,142 @@
+$date
+	Wed Jul 12 15:31:46 2023
+$end
+
+$version
+	Synopsys VCS version S-2021.09
+$end
+
+$timescale
+	1ns
+$end
+
+$comment Csum: 1 97290098dff5455c $end
+
+
+$scope module $unit $end
+$upscope $end
+
+
+$scope module tb_top $end
+$var reg 1 ! reset $end
+$var reg 1 " clk $end
+
+$scope module intf_1 $end
+$var reg 1 # clk $end
+$var reg 1 $ reset $end
+$var reg 4 % a [3:0] $end
+$var reg 4 & b [3:0] $end
+$var reg 1 ' valid $end
+$var reg 7 ( c [6:0] $end
+$upscope $end
+
+
+$scope module DUT $end
+$var wire 1 ) clk $end
+$var wire 1 * reset $end
+$var wire 4 + a [3:0] $end
+$var wire 4 , b [3:0] $end
+$var wire 1 - valid $end
+$var wire 7 . c [6:0] $end
+$var reg 7 / tmp_c [6:0] $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+0"
+1!
+b0000000 (
+b0000 &
+b0000 %
+b0000000 /
+b0000 +
+b0000 ,
+b0000000 .
+0)
+1*
+0-
+0#
+1$
+0'
+$end
+#5
+1"
+1#
+1)
+0!
+0$
+0*
+#10
+0"
+0#
+0)
+#15
+1"
+1#
+1)
+1'
+1-
+b1000 %
+b1000 +
+b1001 &
+b1001 ,
+#20
+0"
+0#
+0)
+#25
+1"
+1#
+1)
+b0010001 /
+b0010001 .
+b0010001 (
+0'
+0-
+#30
+0"
+0#
+0)
+#35
+1"
+1#
+1)
+#40
+0"
+0#
+0)
+#45
+1"
+1#
+1)
+1'
+1-
+b1111 %
+b1111 +
+b1000 &
+b1000 ,
+#50
+0"
+0#
+0)
+#55
+1"
+1#
+1)
+b0010111 /
+b0010111 .
+b0010111 (
+0'
+0-
+#60
+0"
+0#
+0)
+#65
+1"
+1#
+1)
